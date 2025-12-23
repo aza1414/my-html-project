@@ -1,0 +1,58 @@
+/* Основные стили */
+body {
+  background-image: url('../css/wall.JPG'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 15px;
+  font-family: Arial, sans-serif;
+  color: #f9f7f7;
+}
+
+header { padding: 20px 40px; box-shadow:0 10px 25px rgba(9, 9, 9, 0.914); display: flex;  justify-content:space-between; align-items:center; background-color: hsla(0, 0%, 4%, 0.81); position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;}
+.logo { font-weight:1000; font-size: 30px; color:#4a3aff; }
+nav a { margin-left: 50px; text-decoration:none; cursor: pointer; color: white; margin-right: 70px; }
+nav a:hover { color:#8f8c8c; }
+
+
+/* Hero */
+.hero { padding:60px 25px; max-width:1200px; margin:auto; display:flex; flex-wrap:wrap; gap:40px; align-items:center; color: rgb(248, 244, 244); text-shadow: 7px 7px 7px #000;}
+.hero-text h1 { font-size:36px; font-weight:1000; font-family: 'Noto Sans', Arial, sans-serif; }
+.hero-text p { margin-top:10px; color: white; text-shadow: 5px 5px 5px #000;}
+
+/* Cards */
+.card { padding:25px; border-radius:10px; text-shadow: 0 2px 8px rgba(0,0,0,0.10); background-color: hsla(0, 0%, 4%, 0.433); }
+.analytics-preview { height:180px; background:#eee; border-radius: 2%; margin-top:20px; display: grid; align-items:center; justify-content:center; color:#777; }
+
+/* Sections */
+.features h2 { max-width:1200px; margin: 10px auto; padding:0 25px; text-shadow: 5px 5px 5px #000;}
+.features-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(260px,1fr)); gap: 20px; margin-top: 50px; }
+.pro { border:2px solid #584fbb; }
+
+.telegram-btn {
+  display: inline-flex;
+  align-items: center;
+  padding:8px 12px;
+  background:#0088cc;
+  color:#fff;
+  border-radius:6px;
+  text-decoration: none;
+  font-weight:bold;
+  margin-top:10px;
+  transition:0.3s;
+}
+.telegram-btn:hover {
+  background:#00aaff;
+}
+
+footer {
+  margin-top: auto;
+  text-align: center;
+  padding: 20px;
+  color: #ffffff;
+  font-size: 20px;
+}
+
